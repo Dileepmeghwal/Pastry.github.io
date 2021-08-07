@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    font-family: 'Open Sans', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header{
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+nav{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+nav h1{
+    color: #a1731c;
+    float: left;
+}
+
+nav ul{
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    float: left;
+    margin-top: 25px;
+    position: relative;
+    right: 100px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 14px;
+}
+nav .uil{
+    position: relative;
+    top: 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+nav .uil-shopping-cart-alt,
+nav .uil-search{
+    margin-right: 20px;
+}
+nav .uil-facebook, .uil-instagram, .uil-twitter{
+    margin-left: 5px;
+}
+
+/* main section */
+.main{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.main .left{
+    width: 45%;
+    float: left;
+    margin-top: 30px;
+}
+.main .left h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.main .left p{
+    line-height: 24px;
+    font-size: 14px;
+}
+.main .right{
+    width: 45%;
+    float: right;
+}
+.main .right img{
+    width: 100%;
+}
+button{
+    border: none;
+    background-color: #a1731c;
+    color: #fff;
+    padding: 10 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    clear: both;
+}
+button:hover{
+    background-color: #4b3919;
+}
+/* About */
+.about{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.about .left{
+    width: 45%;
+    float: left;
+}
+.about .left img{
+    width: 100%;
+}
+.about .right{
+    float: right;
+    width: 45%;
+}
+.about .right hr{
+    width: 40px;
+    background-color: #a1731c;
+    height: 4px;
+    margin-left: -1px;
+}
+.about .right p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.about .list-one,
+.about .list-two{
+    float: left;
+}
+.about .list-one p, .about .list-two p{
+    line-height: 0;
+    padding-right: 50px;
+}
+.about .right button{
+    border: none;
+    background-color: #a1731c;
+    color: #fff;
+    padding: 10 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+}
+button:hover{
+    background-color: #4b3919;
+}
+/* popular */
+.popular-full{
+    width: 100%;
+    background-color: cornsilk;
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+.popular{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.popular h2{
+    text-align: center;
+}
+.popular hr{
+    width: 40px;
+    background-color: #a1731c;
+    height: 4px;
+    margin-bottom: 40px;
+}
+.popular .box{
+    width: 22%;
+    float: left;
+    margin: 0 1.5%;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.3);
+    text-align: center;
+    background-color: #fff;
+}
+.popular .box h3{
+    color: #111;
+    font-weight: 100;
+    font-size: 16px;
+}
+.popular .box p{
+    font-size: 14px;
+    color: gray;
+}
+.popular .box img{
+    width: 100%;
+}
+/* Special Offer */
+.special-offer{
+    width: 100%;
+    height: 90%;
+    background-image: url(./img/pexels-daria-shevtsova-1070850.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.special{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+}
+.special .left{
+    background-color: white;
+    color: #111;
+    width: 40%;
+    float: left;
+    padding: 6.8% 2.5%;
+    line-height: 25px;
+    font-size: 14px;
+}
+.special .left hr{
+    width: 40px;
+    height: 4px;
+    background-color: #4b3919;
+    margin-left: -1px;
+}
+.special .right{
+    width: 55%;
+    float: left;
+}
+.special .right img{
+    width: 100%;
+}
+/* cake-production */
+.cake-production{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.cake-production hr{
+    width: 40px;
+    height: 4px;
+    background-color: #4b3919;
+}
+.cake-production p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.cake-production{
+    width: 60%;
+}
+.cake-production img{
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+}
+/* recent-post */
+.recent-post{
+    width: 100%;
+    height: 80%;
+    background-color: cornsilk;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+.recent-fix{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+}
+.recent-fix .left{
+    width: 30%;
+    float: left;
+}
+.recent-fix .right{
+    float: left;
+    width: 70%;
+}
+.recent-fix .right .box{
+    width: 40%;
+    float: right;
+    margin: 0 2.5%;
+}
+.recent-fix .right .box img{
+    width: 100%;
+    border-radius: 10px;
+}
+.recent-fix .left hr{
+    width: 40px;
+    height: 4px;
+    background-color: #4b3919;
+    margin-left: -1px;
+}
+.recent-fix .left p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* review */
+.review{
+    width: 100%;
+    height: 80%;
+    background-color: #e29910;
+    padding: 30px 0;
+}
+.review-fix{
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+.review-fix h2{
+    text-align: center;
+}
+.review-fix hr{
+    width: 40px;
+    height: 4px;
+    background-color: #4b3919;
+    margin-bottom: 80px;
+    border: none;
+}
+.review-fix .box{
+    width: 45%;
+    float: left;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 15px 1.7%;
+    text-align: center;
+}
+.review-fix p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.margin{
+    margin-left: 3%;
+}
+
+/* love */
+.love{
+    width: 100%;
+    background-image: url(./img/pexels-giftpunditscom-1303081.jpg);
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.love-box{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+.love-box button{
+    float: right;
+    position: relative;
+    top: -70px;
+}
+
+/* footer */
+.fix-footer{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.fix-footer .left{
+    width: 35%;
+    float: left;
+}
+.fix-footer .left h2{
+    color: #e29910;
+}
+.fix-footer .left p{
+    font-size: 14px;
+    line-height: 23px;
+}
+.fix-footer .right{
+    float: right;
+}
+.fix-footer ul{
+    float: left;
+    list-style: none;
+    position: relative;
+    top: -10px;
+    left: -30%;
+}
+.fix-footer .right ul li{
+    font-size: 14px;
+    padding: 5px 20;
+    text-align: left;
+}
+.fix-footer .right ul li:hover{
+    cursor: pointer;
+    color: #a1731c;
+}
+.fix-footer ul p{
+    font-weight: bold;
+    padding: 5px 20;
+    color: #e29910;
+}
+
+/* responsive */
+@media screen and (max-width: 1100px) {
+    .special .left{
+        width: 90%;
+        margin: 0 2.5%;
+    }
+    .special .right{
+        width: 95%;
+        margin: 0 2.5%;
+    }
+    .special .right img{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 30px;
+    }
+    .main .left{
+        width: 45%;
+        margin: 0 5%;
+    }
+    .main .right{
+        width: 45%;
+    }
+    .about .left{
+        width: 45%;
+        margin: 0 5%;
+    }
+    .popular{
+        padding: 20px 0;
+    }
+    .popular .box{
+        width: 40%;
+        margin-bottom: 20px;
+        margin: 5%;
+    }
+    .cake-production{
+        padding: 30px 0;
+        margin-top: 150px;
+    }
+    .recent-fix .left{
+        width: 40%;
+        margin: 0 5%;
+    }
+    .recent-fix .right{
+        width: 50%;
+    }
+    .review-fix .box{
+        width: 36%;
+        margin: 0 5%;
+    }
+    .love-box{
+        width: 90%;
+    }
+    .fix-footer .left{
+        width: 45%;
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav ul li{
+        display: none;
+    }
+    nav h1{
+        margin-left: 20px;
+    }
+    nav .uil{
+        margin-right: 20px;
+    }
+    .main .left{
+        width: 80%;
+        text-align: center;
+        margin: 0 10%;
+    }
+    .main .right{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .about .left{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .about .right{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .popular .box{
+        width: 60%;
+        margin: 0 20%;
+        margin-bottom: 25px;
+    }
+    .special-offer{
+        height: auto;
+        padding: 30px 0;
+    }
+    .special p{
+        font-size: 14px;
+    }
+    .special .left{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .special .right{
+        width: 85%;
+        margin: 0 10%;
+    }
+    .cake-production p{
+        font-size: 14px;
+    }
+    .cake-production .production-img{
+        width: 100%;
+    }
+    .recent-post{
+        padding-bottom: 100px;
+    }
+    .recent-post .left p{
+        font-size: 14px;
+    }
+    .recent-fix .left{
+        width: 80%;
+        clear: both;
+        margin: 0 10%;
+    }
+    .recent-fix .right{
+        width: 95%;
+        margin-right: 40px;
+        padding-bottom: 50px;
+    }
+    .review{
+        margin-top: 100px;
+        height: auto;
+    }
+    .review-fix{
+        padding: 100px 0;
+
+    }
+    .review-fix .box{
+        width: 70%;
+        margin: 0 13.5%;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .love-box{
+        width: 80%;
+        height: 40%;
+        margin: 0 auto;
+    }
+    .love-box h1{
+        clear: both;
+        font-size: 25px;
+        text-align: center;
+    }
+    .love-box button{
+        position: relative;
+        top: 10%;
+        left: -130px;
+    }
+    .fix-footer .left{
+        width: 80%;
+        margin: 0 8%;
+
+    }
+    .fix-footer .right{
+        width: 80%;
+        position: relative;
+        
+    }
+}
